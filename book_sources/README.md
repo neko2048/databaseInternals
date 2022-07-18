@@ -1,5 +1,43 @@
-# 關於本書 📚
+## Preface
 
-示範如何用 GitHub Pages + GitHub Actions 免費建立自己的 GitBook。
+* Scaling:
+    * Horizontal Scaling (scaling out) - 
+        improving performance by running more instances (更多員工)
+    * Vertical scaling (scaling in) - 
+        move to a powerful machine (找更有能力的員工)
 
-本書網址：https://books.onejar99.com/demo-build-and-publish-gitbook
+* Structure of This book:
+    How the database system ==stored== and how they ==distribute== the data
+    * Part I - Store
+        1. architecture of a database management system.
+        2. Ways to classify the database system by the [primary storage medium](https://www.computerhope.com/jargon/p/primstor.html) and layout.
+        3. how disk-based structures are different from in-memory ones.
+        4. B-Tree and algorithms for efficiently maintaining B-Tree.
+        5. Variants to illustrate the power of [4] and the diversity of data structure influenced and inspired by B-Tree.
+        6. Varients of log-structured storage.
+    * Part II
+        * How to organize multiple nodes into a database cluster
+            1. The importance of building fault-tolerance distributed systems.
+            2. How distributed systems are different from single-node applications. (problems, constraints, and complications)
+        * Algorithms for failure detection## Preface
+
+* Scaling:
+    * Horizontal Scaling (scaling out) - 
+        improving performance by running more instances (更多員工)
+    * Vertical scaling (scaling in) - 
+        move to a powerful machine (找更有能力的員工)
+
+* Structure of This book:
+    How the database system ==stored== and how they ==distribute== the data
+    * Part I - Store
+        1. architecture of a database management system.
+        2. Ways to classify the database system by the [primary storage medium](https://www.computerhope.com/jargon/p/primstor.html) and layout.
+        3. how disk-based structures are different from in-memory ones.
+        4. B-Tree and algorithms for efficiently maintaining B-Tree.
+        5. Variants to illustrate the power of [4] and the diversity of data structure influenced and inspired by B-Tree.
+        6. Varients of log-structured storage.
+    * Part II
+        * How to organize multiple nodes into a database cluster
+            1. The importance of building fault-tolerance distributed systems.
+            2. How distributed systems are different from single-node applications. (problems, constraints, and complications)
+        * Algorithms for failure detection
